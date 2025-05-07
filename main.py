@@ -14,7 +14,7 @@ def arguments():
 def main():
     args = arguments()
     path = args.path
-    mover = FileMover()
+    mover = FileMover(path)
     scanner = DirectoryScanner(mover)
     
     scanner.file_mover = mover
