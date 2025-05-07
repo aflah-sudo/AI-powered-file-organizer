@@ -2,13 +2,13 @@
 
 *Tired of Having Messy Files? Let’s Organize Them!*
 
-This Python script helps you organize your files into folders like Documents, Images, Music, and so on. Plus, if you want, it can **rename your `.txt` files** using **AI** (powered by the **Google Gemini 1.5 Flash API**), so your files have more meaningful names based on their content.
+This Python script helps you organize your files into folders like Documents, Images, and so on. Plus, if you want, it can **rename your `.txt` files** using **AI** (powered by the **Google Gemini 1.5 Flash API**), so your files have more meaningful names based on their content.
 
 ---
 
 ## 🚀 Features
 
-* Organizes your files into folders based on their type (Documents, Images, Music, etc.).
+* Organizes your files into folders based on their type (Documents, Images, etc.).
 * Lets you choose which folder to organize with the `--path` argument.
 * Option to rename `.txt` files using **AI**.
 * Displays a quick summary of what was organized.
@@ -105,7 +105,7 @@ Before running the script, your `Downloads` folder might look something like thi
 Downloads/
 ├── image1.jpg
 ├── document1.txt
-├── music.mp3
+├── video.mov
 ```
 
 After running the script, the files will be organized into the right folders:
@@ -116,8 +116,8 @@ Downloads/
 │   └── image1.jpg
 ├── Documents/
 │   └── document1.txt
-├── Music/
-│   └── music.mp3
+├── videos/
+│   └── video.mov
 ```
 
 And if you choose to use the AI renaming feature, your `.txt` file might be renamed like this:
