@@ -1,6 +1,6 @@
 # 🗂️ File Organizer with AI Renaming
 
-###Tired of Having Messy Files? Let’s Organize Them!
+*Tired of Having Messy Files? Let’s Organize Them!*
 
 This Python script helps you organize your files into folders like Documents, Images, Music, and so on. Plus, if you want, it can **rename your `.txt` files** using **AI** (powered by the **Google Gemini 1.5 Flash API**), so your files have more meaningful names based on their content.
 
