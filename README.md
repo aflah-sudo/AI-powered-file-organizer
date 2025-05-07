@@ -150,9 +150,3 @@ SuggestedTitleFromAI.txt
 ```bash
 python main.py --path "C:\Users\YourName\Downloads"
 ```
----
-## 🤝 Collaboration
-
-I'm open to collaborating! If you have any ideas, want to help improve the project, or have suggestions, feel free to reach out. You can submit pull requests or open issues if you spot any bugs or want to add features.
-
----
