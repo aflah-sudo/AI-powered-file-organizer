@@ -54,7 +54,7 @@ This Python script helps you organize your files into folders like Documents, Im
 If you want, you can use the AI feature to **rename `.txt` files**. The script will send the content of those files to **Google Gemini 1.5 Flash API**, and the AI will suggest a new name based on the file’s content.
 
 * You’ll need an **API key** from [Google Gemini](https://makersuite.google.com/app/apikey) to use this feature.
-* Only `.txt` files are supported for AI renaming right now.
+* Only `.txt` and `.json` files are supported for AI renaming right now.
 
 ---
 
