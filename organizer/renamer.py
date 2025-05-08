@@ -8,7 +8,10 @@ class FileRenamer:
         for file in files:
           answr=input("enter yes to use ai to rename else enter no")
           if answr.lower()=="yes":
-            airenamer(category, file)
+            try:
+              airenamer(category, file)
+            except Exception as e:
+              print(f"an error occured while trying to rename using ai{e})
           else:
             name = f"{os.path.gettime(file)}.{os.path.splitext(file)[1]}"
             os.rename(file)
